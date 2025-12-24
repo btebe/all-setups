@@ -544,7 +544,7 @@ style.css
 
 ### HeroIcons
 
-👉 **[heroicons library](https://heroicons.com/outline)**
+👉 **[library](https://heroicons.com/outline)**
 
 ```bash
 <script setup>
@@ -561,7 +561,7 @@ import { Bars3Icon, BellIcon, XMarkIcon, ShoppingBagIcon, UserIcon } from '@hero
 
 ### Headless ui
 
-👉 **[headless ui documentation](https://headlessui.com/v1/vue/menu)**
+👉 **[documentation](https://headlessui.com/v1/vue)**
 
 ```bash
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
