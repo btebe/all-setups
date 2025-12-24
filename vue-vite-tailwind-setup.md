@@ -542,6 +542,31 @@ style.css
 
 ```
 
+### HeroIcons
+
+👉 **[heroicons library](https://heroicons.com/outline)**
+
+```bash
+<script setup>
+import { Bars3Icon, BellIcon, XMarkIcon, ShoppingBagIcon, UserIcon } from '@heroicons/vue/24/outline'
+</script>
+
+<template>
+ <ShoppingBagIcon class="size-6 shrink-0 text-secondary group-hover:text-primary"
+                                        aria-hidden="true" />
+<template/>
+
+
+```
+
+### Headless ui
+
+👉 **[headless ui documentation](https://headlessui.com/v1/vue/menu)**
+
+```bash
+import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+
+```
 
 
 
