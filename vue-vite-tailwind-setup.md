@@ -10,46 +10,16 @@ This project uses **Vue 3**, **Vite**, **Tailwind CSS**, **Vue Router**, **Headl
 npm create vite@latest
 ```
 
-## 2️⃣ Install Tailwind CSS
 
-```bash
-npm install tailwindcss @tailwindcss/vite
-npm install @headlessui/vue @heroicons/vue
-```
 
-## 3️⃣ Configure Tailwind with Vite
-
-vite.config.js
-
-```bash
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
-
-export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-})
-
-```
-
-## 4️⃣ Add Tailwind to Styles
-
-src/style.css
-
-```bash
-@import "tailwindcss";
-
-```
-
-## 5️⃣ Install Vue Router
+## 2️⃣ Install Vue Router
 
 ```bash
 npm install vue-router@4
 
 ```
 
-## 6️⃣ Create Router Configuration
+Create Router Configuration
 
 Create a new directory:
 
@@ -99,8 +69,7 @@ app.mount('#app')
 
 ```
 
-
-## 7️⃣ App Layout Setup
+App Layout Setup
 
 App.vue
 
@@ -140,7 +109,39 @@ src/
 └─ style.css
 ````
 
-## 8️⃣ Tailwind custom css
+## 3️⃣ Install Tailwind CSS
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+npm install @headlessui/vue @heroicons/vue
+```
+
+Configure Tailwind with Vite
+
+vite.config.js
+
+```bash
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+```
+
+Add Tailwind to Styles
+
+src/style.css
+
+```bash
+@import "tailwindcss";
+
+```
+
+Tailwind custom css
 
 👉 **[Tailwind CSS Theme Documentation](https://tailwindcss.com/docs/theme)**
 
