@@ -19,7 +19,7 @@ npm install vue-router@4
 
 ```
 
-Create Router Configuration
+### Create Router Configuration
 
 Create a new directory:
 
@@ -69,7 +69,7 @@ app.mount('#app')
 
 ```
 
-App Layout Setup
+### App Layout Setup
 
 App.vue
 
@@ -116,7 +116,7 @@ npm install tailwindcss @tailwindcss/vite
 npm install @headlessui/vue @heroicons/vue
 ```
 
-Configure Tailwind with Vite
+### Configure Tailwind with Vite
 
 vite.config.js
 
@@ -132,7 +132,7 @@ export default defineConfig({
 
 ```
 
-Add Tailwind to Styles
+### Add Tailwind to Styles
 
 src/style.css
 
@@ -141,7 +141,7 @@ src/style.css
 
 ```
 
-Tailwind custom css
+### Tailwind custom css
 
 👉 **[Tailwind CSS Theme Documentation](https://tailwindcss.com/docs/theme)**
 
