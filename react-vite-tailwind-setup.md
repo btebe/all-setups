@@ -29,12 +29,13 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import HomeScreen from './pages/HomeScreen.jsx'
 import AboutScreen from './pages/AboutScreen.jsx'
+import NotFoundScreenView from './pages/NotFoundScreenView.jsx'
 import App from './App.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const routes = [
-  {path:'/', element: <HomeScreen />},
+  {path:'/', element: <HomeScreen />, errorElement: <NotFoundScreenView />},
   {path:'/about', element: <AboutScreen />},
   
 ]
